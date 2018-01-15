@@ -2,7 +2,18 @@ $(document).ready(function() {
   setTimeout(function() {
     window.location.href = '../views/newsfeed.html';
   }, 40000);
-  
+
+  // Initialize Firebase
+  // var config = {
+  //   apiKey: 'AIzaSyBTyPXp0vll8d2Fvi5nViLsKntlNxapEFY',
+  //   authDomain: 'red-social-a1aeb.firebaseapp.com',
+  //   databaseURL: 'https://red-social-a1aeb.firebaseio.com',
+  //   projectId: 'red-social-a1aeb',
+  //   storageBucket: 'red-social-a1aeb.appspot.com',
+  //   messagingSenderId: '445743781768'
+  // };
+  // firebase.initializeApp(config);
+
   var config = {
     apiKey: 'AIzaSyDV9QIW9xJhVniaopY5-1cwbGEZFcVdeqw',
     authDomain: 'red-social-fin.firebaseapp.com',
