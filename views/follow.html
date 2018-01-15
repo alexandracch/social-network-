@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Profile</title>
+  <title>Follow</title>
   <link rel="shortcut icon" type="image/x-icon" href="../assets/favicon/6314traveller.ico">
   <link href="https://fonts.googleapis.com/css?family=Roboto:400,700,900" rel="stylesheet">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -35,9 +35,9 @@
               <a href="pets.html">Pets</a>
           </li>
         </ul>
-        <a class="btn-floating btn-large halfway-fab waves-effect waves-light teal">
+        <a class="btn-floating btn-large halfway-fab waves-effect waves-light teal" href="profile.html">
           <!-- <div class="green"></div> -->
-          <img src="" alt="" id="foto" class="photo-user">
+          <img src="" alt="" id="photo-follow" class="photo-user">
         </a>
       </div>
     </nav>
@@ -46,20 +46,20 @@
     <section>
       <div class="portada">
         <figure class="profile-banner"></figure>
-        <p class="name" id="name-user"></p>
+        <p class="name" id="name-follow"></p>
       </div>
       <div class="profile-stats">
-        <ul class="flex-spacing">
+        <ul>
           <li>
             <span>13</span>
             <span>Followins</span>
           </li>
           <li>
-            <span id="seguidores"></span>
+            <span id="seguidores-follow"></span>
             <span>Followers</span>
           </li>
         </ul>
-        <!-- <a class="follow" id="follow">Follow</a> -->
+        <button class="follow" id="follow-user">Follow</button>
       </div>
     </section>
     <div class="container">
@@ -102,6 +102,6 @@
   <script src="../vendors/materialize/js/materialize.min.js"></script>
   <!-- <script src="https://www.gstatic.com/firebasejs/4.8.1/firebase.js"></script> -->
   <script src="https://www.gstatic.com/firebasejs/4.8.2/firebase.js"></script>
-  <script src="../js/profile.js"></script>
+  <script src="../js/follow.js"></script>
 </body>
 </html>
